@@ -8,8 +8,8 @@
         android:title="Account Settings"
         android:summary="Sync frequency, notifications, etc." >
         <intent
-            android:action="fm.last.android.activity.Preferences.ACCOUNT_SETUP"
-            android:targetPackage="fm.last.android"
-            android:targetClass="fm.last.android.activity.Preferences" />
+            android:action="com.jiahaoliuliu.android.accountmanager.Preferences.ACCOUNT_SETUP"
+            android:targetPackage="com.jiahaoliuliu.android.accountmanager.preferences"
+            android:targetClass="com.jiahaoliuliu.android.acountmanager.preferences.Preferences" />
     </PreferenceScreen>
 </PreferenceScreen>
